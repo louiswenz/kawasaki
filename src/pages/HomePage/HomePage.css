@@ -1,0 +1,32 @@
+/* HomePage.css */
+
+.song-container {
+    text-align: left;
+    /* Centers the content */
+    margin-bottom: 3px;
+    /* Adds some space between song entries */
+    /* background-color: #000000; */
+    padding: 10px;
+    border-radius: 10px;
+    /* Rounded corners for the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional: Adds a subtle shadow */
+}
+
+.song-cover-art {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    /* Rounded corners for the image */
+    margin-top: 10px;
+    /* Space above the image */
+}
+
+.song-title {
+    /* font-family: 'Cinzel', serif; */
+    color: #fff;
+    /* Light color for the title */
+    margin-top: 10;
+    /* Space above the title */
+}
